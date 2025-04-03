@@ -9,15 +9,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Ana Flavia Gonçalves Barbosa
+- Matricula:894873
+- Proposta de projeto escolhida: Catalogo de Filmes 
 - Breve descrição sobre seu projeto:
-
+Um catalogo de filmes ainda em desenvolvimento.
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  [text](<../Documents/Wireframe Catálogo Filmes.html>) >>
 
 
 ## Print da home-page criada
