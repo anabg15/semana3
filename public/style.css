@@ -1,3 +1,152 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
 body {
-    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .search input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+header .search button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.highlight-info {
+    width: 50%;
+}
+
+.highlight-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.highlight-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.highlight-info button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.highlight-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Cartões de filmes */
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.movie-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.movie-card button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
 }

@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <h1>Catálogo de Filmes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Filmes em Cartaz</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Pesquisar filmes...">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="highlight">
+            <div class="highlight-info">
+                <h2>Filme em Destaque: O Poderoso Chefão</h2>
+                <p>Uma história épica de poder e família. Não perca esse clássico!</p>
+                <button>Assistir agora</button>
+            </div>
+            <div class="highlight-image">
+                <img src="https://picsum.photos/500/300?movie" alt="Filme em Destaque">
+            </div>
+        </section>
+
+        <section class="movies">
+            <h2>Filmes em Destaque</h2>
+            <div class="movie-card">
+                <img src="https://picsum.photos/200/300?1" alt="Filme 1">
+                <h3>O Senhor dos Anéis</h3>
+                <p>Classificação: ★★★★☆</p>
+                <button>Assistir Trailer</button>
+            </div>
+            <div class="movie-card">
+                <img src="https://picsum.photos/200/300?2" alt="Filme 2">
+                <h3>Star Wars</h3>
+                <p>Classificação: ★★★★★</p>
+                <button>Assistir Trailer</button>
+            </div>
+            <div class="movie-card">
+                <img src="https://picsum.photos/200/300?3" alt="Filme 3">
+                <h3>Matrix</h3>
+                <p>Classificação: ★★★★☆</p>
+                <button>Assistir Trailer</button>
+            </div>
+            <div class="movie-card">
+                <img src="https://picsum.photos/200/300?4" alt="Filme 4">
+                <h3>Inception</h3>
+                <p>Classificação: ★★★★★</p>
+                <button>Assistir Trailer</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Catálogo de Filmes | Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
 </body>
+
 </html>

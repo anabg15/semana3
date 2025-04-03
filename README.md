@@ -9,17 +9,19 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Ana Flavia
+- Matricula: 894873
+- Proposta de projeto escolhida:Catalogo de filmes 
 - Breve descrição sobre seu projeto:
+fiz um portal de series e filmes com varias diversidades 
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+ !![esboço da pagina](image-1.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![print pag inicial](<Captura de tela 2025-04-03 140816.png>) 
+
